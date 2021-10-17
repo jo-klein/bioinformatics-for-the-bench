@@ -7,7 +7,7 @@ The scripts are run from the command line in Terminal (Mac, PC, Linux). If this 
 
 1. Open your preferred command line terminal application.
 2. Navigate to the location of the script.
-3. At the command line prompt (using ">" below as an example) enter the following and press enter:
+3. At the command line prompt, enter the following and press enter:
 
     > name_of_the_script.ext argument_1 argument_2 argument_3 ... argument_n
 
