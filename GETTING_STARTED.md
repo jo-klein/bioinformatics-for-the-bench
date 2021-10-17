@@ -1,8 +1,8 @@
-This tutorial will lead you through the following five steps, which together are sufficient for one to use some of the scripts in this repository as well as process and analyze a practice DNA-seq data set. It assumes you've already reviewed the README.txt, which is recommended before starting this tutorial.
+This tutorial will lead you through five steps, which together are sufficient for one to use some of the scripts in this repository as well as process and analyze a DNA-seq data set. It assumes you've already reviewed the README.txt, which is recommended before starting this tutorial.
 
 To run nearly all of the scripts in this reposity, one will need a package manager already installed. Package managers are critical pieces of software that will find and install the software packages needed in order run certain scripts. These supporting software packages are often referred to as "dependencies."
 
-A home internet router is a useful analogy for a package manager. The router sits between your computer and the rest of the internet. If you want to access a web page, you enter the URL in your browser, and the router then communicates with various servers on the internet to make sure it delivers the correct webpage. A package manager basically does the same thing. It sits between your computer and the servers housing the respositories where the packages you want are stored and (usually) selects the correct package and version when you ask it to install one. However, package managers perform other important function as well:
+An internet service provider is a useful analogy for a package manager. The provider sits between your computer and the rest of the internet. If you want to access a web page, you enter the URL in your browser, and the provider then communicates with various servers on the internet to make sure it delivers the correct webpage. A package manager basically does the same thing. It sits between your computer and the servers housing the respositories where the packages you want are stored and (usually) selects the correct package and version when you ask it to install one. However, package managers perform other important function as well:
 
 1. It checks the versions of all of the currently installed packages to select only a compatible package version for installation. This can fail if there is no compatible package or if the author of a package didn't document its requirements accurately. Luckily,  the package manager will usually identify which currently installed package(s) is incompatible.
 
@@ -86,5 +86,5 @@ A collection of tools for converting the alignment output BAM file into a file t
 
 http://www.htslib.org/
 
-Ok, so now you've installed the essential tools for processing, analyzing, and manipulating NGS data. What next? How about processing our first DNA-seq data set? Follow the PRACTICE_NGS_ANALYSIS.txt tutorial or take off in your own direction!
+Ok, so now you've installed the essential tools for running Python scripts as well as processing, analyzing, and manipulating NGS data. What next? How about processing a DNA-seq data set? Follow the NGS_PRACTICE_ANALYSIS.txt tutorial or take off in your own direction!
     
