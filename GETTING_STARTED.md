@@ -32,33 +32,59 @@ Note that the terminal command line prompt now reads "dna-seq." When ready to ex
    > conda config --env --add channels bioconda
    
 4. Now let's install some packages that you are likely to be using at some point. For now, we'll just let conda choose the versions it thinks are best. Install each of the packages below by typing (without quotes) "conda install [package name]" and pressing enter. You can also type "conda install [package name 1] [package name 2] [package name 2] ... [package name n]" and press enter to install them all at once, but we're going one step at a time for the sake of learning. The package list:
-- numpy
-    Adds math functionality beyond the basics that come with Python. 
-    https://numpy.org/
-- pandas
-    Powerful tool set for organizing, querying, and manipulating arrays of data. 
-    https://pandas.pydata.org/
-- lxml
-    Enables working with XML data such as when fetching reference genome sequences from the UCSC Genome Browser. 
-    https://lxml.de/
-- fastqc
-    Creates a quality control report on the raw fastq data file output by bcl2fastq from an NGS run. Bcl2fastq is typically automatically run in BaseSpace assuming you're working with Illumina data so that you can just download the fastq files to your computer.
-    https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
-- multiqc
-    Combines multiple fastqc reports such as what you would get from a paired end run into one concise report.
-    https://multiqc.info/
-- cutadapt
-    Removes adapters, primers, and poly-A tails from your raw fastq output files as well as demultiplexes your barcodes if desired.
-    https://cutadapt.readthedocs.io/en/stable/guide.html
-- trim_galore
-    Uses cutadapt to automate its functions and also automatically detects common adapter sequences, trims low quality reads, and other quality control tasks to output fastq files that are ready for alignment to a reference genome.
-    https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/
-- bwa-mem
-    Commonly used aligner for aligning NGS reads in fastq files to a reference genome.
-    http://bio-bwa.sourceforge.net/
-- samtools
-    A collection of tools for converting the alignment output BAM file into a file that can be viewed by Integrated Genome Browser and other analysis software as well as performing many basic NGS analysis functions.
-    http://www.htslib.org/
+> numpy
+
+Adds math functionality beyond the basics that come with Python.
+
+https://numpy.org/
+
+> pandas
+
+Powerful tool set for organizing, querying, and manipulating arrays of data. 
+
+https://pandas.pydata.org/
+
+> lxml
+
+Enables working with XML data such as when fetching reference genome sequences from the UCSC Genome Browser. 
+
+https://lxml.de/
+
+> fastqc
+
+Creates a quality control report on the raw fastq data file output by bcl2fastq from an NGS run. Bcl2fastq is typically automatically run in BaseSpace assuming you're working with Illumina data so that you can just download the fastq files to your computer.
+
+https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+
+> multiqc
+
+Combines multiple fastqc reports such as what you would get from a paired end run into one concise report.
+
+https://multiqc.info/
+
+> cutadapt
+
+Removes adapters, primers, and poly-A tails from your raw fastq output files as well as demultiplexes your barcodes if desired.
+
+https://cutadapt.readthedocs.io/en/stable/guide.html
+
+> trim_galore
+
+Uses cutadapt to automate its functions and also automatically detects common adapter sequences, trims low quality reads, and other quality control tasks to output fastq files that are ready for alignment to a reference genome.
+
+https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/
+
+> bwa-mem
+
+Commonly used aligner for aligning NGS reads in fastq files to a reference genome.
+
+http://bio-bwa.sourceforge.net/
+
+> samtools
+
+A collection of tools for converting the alignment output BAM file into a file that can be viewed by Integrated Genome Browser and other analysis software as well as performing many basic NGS analysis functions.
+
+http://www.htslib.org/
 
 Ok, so now you've installed the essential tools for processing, analyzing, and manipulating NGS data. What next? How about processing our first DNA-seq data set? Follow the PRACTICE_NGS_ANALYSIS.txt tutorial or take off in your own direction!
     
