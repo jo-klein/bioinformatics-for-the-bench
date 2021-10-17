@@ -2,6 +2,8 @@
 
 # fetch-sequency.py
 
+# Joshua Klein 10-16-2021
+
 # This function fetches the human genome sequence from the Genome Browser using
 # the UCSC DAS server given a chromosome name, start and stop coordinate, and
 # hg build. On retrieval, the function prints the DNA sequence directly to the
