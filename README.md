@@ -3,7 +3,7 @@ Computational biology tools for bench scientists who are new to Python and bash 
 
 This repo contains computational biology tools for common tasks in biology research. They are short well-commented scripts that I've written to support my research activities. The scripts are primarily focused on enabling the expert bench researcher to generate and manipulate nucleic acid sequences as well as prepare, execute, and analyze NGS experiments from start to finish (while learning some Python in the process).
 
-The scripts are run from the command line in Terminal (Mac, PC, Linux). If this is new to you, don't worry. I've written a simple guide (see TUTORIAL_1_GETTING_STARTED.txt) that will get you up an running in 30 minutes or less even if you've never used the command line before. All of the Python (.py) and bash (.sh) scripts are run as follows:
+The scripts are run from the command line in Terminal (Mac, PC, Linux). If this is new to you, don't worry. I've written a simple guide (see TUTORIAL_1_GETTING_STARTED.txt) that will get you up and running in 30 minutes or less even if you've never used the command line before. All of the Python (.py) and bash (.sh) scripts are run as follows:
 
 1. Open your preferred command line terminal application.
 2. Navigate to the location of the script.
