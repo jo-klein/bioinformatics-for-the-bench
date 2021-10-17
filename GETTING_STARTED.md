@@ -1,4 +1,4 @@
-This tutorial will lead you the following five steps, which together are sufficient for one to use some of the scripts in this repository as well as process and analyze a practice DNA-seq data set. It assumes you've already reviewed the README.txt, which is recommended before starting this tutorial.
+This tutorial will lead you through the following five steps, which together are sufficient for one to use some of the scripts in this repository as well as process and analyze a practice DNA-seq data set. It assumes you've already reviewed the README.txt, which is recommended before starting this tutorial.
 
 To run nearly all of the scripts in this reposity, one will need a package manager already installed. Package managers are critical pieces of software that will find and install the software packages needed in order run certain scripts. These supporting software packages are often referred to as "dependencies."
 
