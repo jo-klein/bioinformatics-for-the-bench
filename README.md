@@ -8,8 +8,10 @@ The scripts are run from the command line in Terminal (Mac, PC, Linux). If this 
 1. Open your prefered command line terminal application.
 2. Navigate to the location of the script.
 3. At the command line prompt ">" enter the following and press enter:
+
     > name_of_the_script.py argument_1 argument_2 argument_3 ... argument_n
-where "argument" could be a DNA sequence, a chromosome coordinate, or some customizable option you want to tell the script to use.
+
+The "arguments" could be DNA sequences, chromosome coordinates, or some customizable options you want to tell the script to use.
 
 Many of the tools rely on tools that others have created called "dependencies" that will be listed in the script header. If you've already learned how to use pip or conda or you've already read GETTING_STARTED.txt, then you know what this means.
 
