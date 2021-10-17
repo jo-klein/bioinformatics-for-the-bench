@@ -20,6 +20,7 @@ There a multiple package managers such as pip, homebrew, anaconda, and miniconda
 
 2. Open your terminal app and type the following and press enter (I don't know why the command starts with "conda" instead of "miniconda"):
    > conda create -n dna-seq python=3.7
+   
    > conda activate dna-seq
    
 Congratulations! You've just created your first virtual environment, named it dna-seq, and told conda to create it using Python version 3.7. There are many other versions to select from -- this is just the one I use most often. You've also activated the dna-seq environment, so any changes you make here (or mistakes you can't fix) won't be reflected in your default environment. 
