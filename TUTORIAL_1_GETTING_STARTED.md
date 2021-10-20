@@ -70,15 +70,15 @@ Removes adapters, primers, and poly-A tails from your raw fastq output files as 
 
 https://cutadapt.readthedocs.io/en/stable/guide.html
 
-> trim_galore
+> trim-galore
 
 Uses cutadapt to automate its functions and also automatically detects common adapter sequences, trims low quality reads, and other quality control tasks to output fastq files that are ready for alignment to a reference genome.
 
 https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/
 
-> bwa-mem
+> bwa
 
-Commonly used aligner for aligning NGS reads in fastq files to a reference genome.
+A commonly used aligner for aligning NGS reads in fastq files to a reference genome. When working with > 500 M reads, one should consider the updated bwa-mem2 (https://blog.dnanexus.com/2020-03-10-bwa-mem2-review/).
 
 http://bio-bwa.sourceforge.net/
 
