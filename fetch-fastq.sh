@@ -15,19 +15,22 @@
 # Example
 #     > fetch-fastq.sh SRR13479833 SRR13479835 -s -o ./SRA/
 #
-#   This will create the directory SRA in the current working
-#   directory if not already present and then download SRR13479833
-#   SRR13479834, and SRR13479835 to ./SRA/ while splitting the
-#   fastq files into read 1 and read 2.
+# This will create the directory SRA in the current working
+# directory if not already present and then download SRR13479833
+# SRR13479834, and SRR13479835 to ./SRA/ while splitting the
+# fastq files into read 1 and read 2.
  
-#   Flags
+# Flags
 #   -s Optional flag for splitting paired end runs into separate
 #      fastq files.
 #   -d Optional flag to specify a save-to directory. Will create
 #      the directory if not present. Default path is the current
 #      working directory.
 
-#   References
+# Dependencies
+#   sra-tools (tested with 2.10.1; fails with current release of 2.11.0)
+
+# References
 #   https://stackoverflow.com/questions/47058318/bash-script-to-test-for-only-presence-of-flag
 
 START=$1
