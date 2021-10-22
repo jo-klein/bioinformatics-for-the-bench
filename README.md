@@ -19,8 +19,11 @@ Feel free to use, modify, repurpose, and stitch them together with others to mak
 
 Scripts
 
-- dna-seq.sh (coming soon...)
-Bash script for a no-frills DNA-seq workflow to create indexed BAM files from Illumina-generated FASTQ files.
+- dna-seq.sh
+Bash script for a no-frills DNA-seq workflow to create BAM files FASTQ files.
+
+- fetch-fastq.sh
+Bash script to download NCBI SRA runs as FASTQ files.
 
 - fetch-sequency.py
 Python script to fetch the reference sequence from the UCSC Genome Browser for given a chromosome name, start and stop coordinate, and hg build. 
