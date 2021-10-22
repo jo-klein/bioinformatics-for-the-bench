@@ -11,9 +11,9 @@ The scripts are run from the command line in Terminal (Mac, PC, Linux). If this 
 
     > name_of_the_script.ext argument_1 argument_2 argument_3 ... argument_n
 
-The "arguments" could be DNA sequences, chromosome coordinates, or some customizable options you want to tell the script to use. Just read the script header for instructions.
+The "arguments" could be DNA sequences, chromosome coordinates, or some customizable options you want to tell the script to use.  Read the script header for instructions.
 
-Many of the tools rely on tools that others have created called "dependencies" that will be listed in the script header or the import section below it. If you've already learned how to use pip or conda or you've already read TUTORIAL_1_GETTING_STARTED.md, then you know what to do.
+Many of these tools rely on ones that others have created called "dependencies" that will be listed in the script header or the import section below it. If you've already learned how to use pip or conda or you've already read Tutorial_1_getting_started.md, then you know what to do.
 
 Feel free to use, modify, repurpose, and stitch them together with others to make the scripts you need. I enjoy coding for fun. If you need a simple script that isn't here or elsewhere, let me know and I'll give it a try if I have the time!
 
@@ -27,7 +27,7 @@ Bash script for a no-frills DNA-seq workflow to create BAM files from FASTQ file
 
 Bash script to download NCBI SRA runs as FASTQ files.
 
-> fetch-sequency.py
+> fetch-sequence.py
 
 Python script to fetch the reference sequence from the UCSC Genome Browser for given a chromosome name, start and stop coordinate, and hg build. 
 
