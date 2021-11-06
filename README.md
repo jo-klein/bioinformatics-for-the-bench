@@ -21,16 +21,16 @@ Scripts
 
 > dna-seq.sh
 
-Bash script for a no-frills DNA-seq workflow to create BAM files from FASTQ files.
+No-frills DNA-seq workflow to create BAM files from FASTQ files (bash)
 
 > fetch-fastq.sh
 
-Bash script to download NCBI SRA runs as FASTQ files.
+Download NCBI SRA runs as FASTQ files (bash)
 
 > fetch-sequence.py
 
-Python script to fetch the reference sequence from the UCSC Genome Browser for given a chromosome name, start and stop coordinate, and hg build. 
+Fetch a ref seq from UCSC's Genome Browser by chromosome, start and stop coordinate, and hg build (python)
 
 > reverse-complement.py
 
-Python script to convert a given nucleic acid sequence into its reverse complement. Non-ATCG characters are accepted.
+Convert a nucleic acid sequence into its reverse complement (python)
